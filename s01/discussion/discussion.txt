@@ -1,3 +1,8 @@
 Hello World!
 
 Welcome to Zuitt Free Coding Bootcamp. - Zuitt Open House
+
+Topics in this FCB:
+- Git
+- HTML
+- CSS
