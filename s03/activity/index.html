@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <!-- Procedure 2: External CSS link -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+
+    <!-- Procedures 2 & 5: Removed align attribute -->
+    <nav>
+        <!-- Procedure 6: Added nav-link class -->
+        <a href="#landing" class="nav-link">Home</a> | 
+        <a href="#tools" class="nav-link">Tools</a> | 
+        <a href="#projects" class="nav-link">Projects</a> | 
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- Procedure 2: Removed align attribute -->
+    <div id="landing">
+        <!-- Procedure 10: Added profile id -->
+        <img src="image of my self.jpg" alt="Picture of me" id="profile">
+        <!-- Procedure 12: Added name id -->
+        <h1 id="name">Jherome Fajardo</h1>
+        <!-- Procedure 14: Added title id -->
+        <h2 id="title">Web Developer</h2>
+        <!-- Procedure 16: Added intro id -->
+        <p id="intro">Aspiring Frontend Developer and current trainee with foundational skills in GIT, Sublime HTML, and CSS. Eager to leverage hands-on academic project experience and a strong eye for responsive design to contribute to a collaborative development team.</p>
+    </div>
+
+    <!-- Procedure 2: Removed align attribute -->
+    <div id="tools">
+        <!-- Procedure 19: Added tools-title id -->
+        <h2 id="tools-title">Tools I Use</h2>
+        <!-- Procedure 21: Added tools-img class to all images -->
+        <img src="Git.png" alt="Git" class="tools-img">
+        <img src="sublime.png" alt="Sublime Text" class="tools-img">
+        <img src="html.png" alt="HTML" class="tools-img">
+        <img src="css.png" alt="CSS" class="tools-img">
+    </div>
+
+    <!-- Procedure 2: Removed align attribute -->
+    <div id="projects">
+        <h2>Projects</h2>
+        
+        <!-- Procedure 2 & 24: Removed align attribute, verified class="card" -->
+        <div class="card">
+            <h3>Project 1</h3>
+            <!-- Procedure 26: Added card-img class -->
+            <img src="project1.png" alt="Picture of Project 1" class="card-img">
+        </div>
+
+        <div class="card">
+            <h3>Project 2</h3>
+            <!-- Procedure 26: Added card-img class -->
+            <img src="project2.png" alt="Picture of Project 2" class="card-img">
+        </div>
+
+        <div class="card">
+            <h3>Project 3</h3>
+            <!-- Procedure 26: Added card-img class -->
+            <img src="project3.png" alt="Picture of Project 3" class="card-img">
+        </div>
+    </div> 
+    
+    <!-- Procedure 2: Removed align attribute and <br> tag -->
+    <footer id="contact">
+        <a href="https://www.facebook.com/jhrmfjrd" target="_blank">Facebook</a> | 
+        <a href="https://www.linkedin.com/in/jhf-ecet" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/jhrmsf/FCB-zoh" target="_blank">GitHub</a> | 
+        <a href="https://gitlab.com" target="_blank">GitLab</a>
+    </footer>
+
+</body>
+</html>
